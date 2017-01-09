@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hamburgerhut.hamburgerhut.RegisterActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:id="@+id/textView"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Name"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:hint="John Doe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHONE NUMBER"
+                android:id="@+id/textView2"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Phone_Number"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:hint="0712 0777 0734" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADDRESS"
+                android:id="@+id/textView9"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/etRegister_Address"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:inputType="textMultiLine"
+                android:hint="999 Home \nSuburb \nHarare"
+                android:gravity="top|left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:id="@+id/textView5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Email"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:hint="johndoe@domain.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEW PASSWORD"
+                android:id="@+id/textView3"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Password"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:password="true"
+                android:inputType="textPassword"
+                android:hint="password" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REENTER PASSWORD"
+                android:id="@+id/textView4"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_ReEnter_Password"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:password="true"
+                android:inputType="textPassword"
+                android:hint="password" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:id="@+id/btnRegister_Register"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_responsive_bground"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

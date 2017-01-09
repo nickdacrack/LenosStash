@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/linearLayout2">
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibToolbar_Back_Nav_Button"
+            android:src="@mipmap/back_arrow_black_2"
+            android:background="#00000000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/etToolbar_Search_Box"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edit_text"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:hint="\@rotaractd9210"
+            android:singleLine="true"
+            android:textColor="#5c5c5c"
+            android:gravity="left|bottom"
+            android:textSize="20dp"
+            android:paddingBottom="10dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/ibToolbar_Search"
+            android:background="@mipmap/search_icon_xxl"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvTwitter_List"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#57a5ff" />
+
+</RelativeLayout>

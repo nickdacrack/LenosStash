@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">D9210 Events</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- Strings pertaining to Speakers of the events-->
+    <string name="chamuBio">""</string>
+    <string name="chamuProf">"AAG President/Founder The Shift and Serial Entrepreneur"</string>
+    <string name="hayesBio">"Adrian Hayes is a British record-breaking polar explorer &amp; adventurer, keynote speaker, business coach, author and campaigner.
+
+An Arabic and Nepalese speaking former Airbus Middle East Sales Director and British Army Gurkha Officer, in his expedition work he has achieved more major goals the past eight years than almost anyone in the world – Everest, K2, the North Pole, South Pole, the length of Greenland by kite-ski, the Arabian Desert by camel, two Guinness world records, two documentaries and one book.
+
+One of the few extreme adventurers in the world with a senior corporate background, he is now an internationally acclaimed keynote or motivational speaker and professional leadership, team and executive coach, delivering speeches, seminars and programs worldwide. He is also a speaker, writer and campaigner on a number of contemporary world issues.
+    "</string>
+    <string name="hayesProf">"Polar explorer &amp; adventurer, keynote speaker, business coach, author and campaigner"</string>
+    <string name="muzembiBio">"
+Barbara is a chemist and micro biologist by profession. Barbara also has diplomas in accounting, interior design and languages. She also worked at the University of Zimbabwe’s research department for a brief moment.After leaving her job at the University of Zimbabwe, she also went on to work at the centre of epidemiology where she worked in a lab analysing different human swaps,food and beverages.
+
+Together with husband Walter Mzembi, they own and operate a travel agency called MuNandi oparates along the Harare and Johannesburg. The travel agency was also said to be one of the best in the country and was said to have expanded and offering other services like air ticketing. Barbara has also been heavily involved in the country’s tourism industry, she has been the guest of honour at the Miss Tourism Prize Ceremony for the year 2009. After the successful introduction of the annual Miss Carnival by the ministry of tourism, Barbara Hernandez Mzembi was appointed as the new Miss Carnival Patron in 2014. She also played a complimentary role at the UNWTO Conference that was held in Victoria Falls where she entertained the spouses of the delegates attending the conference.
+
+Barbara Hernandez Mzembi is the wife of Zimbabwe’s minister of Tourism and Hospitality Walter Mzembi. She is originally from San Jose, Cuba but moved to Zimbabwe in 1998. The couple is blessed with six children. Barbara is also a socialite.
+"</string>
+    <string name="muzembiProf">"
+Chemist and Micro biologist
+        "</string>
+    <string name="guptaBio">"
+Kumar Gupta (B.Eng, Queen’s University, 1995); MA (Environmental Design, University of Calgary, 2000) was appointed Ambassador to Zimbabwe in August 2015.  He joined the Department of Foreign Affairs and International Trade in 2001. Prior to joining Foreign Affairs, he worked with the World University Service of Canada in Peru (1995-1997) and with Petro-Canada in Calgary (2000).
+
+His first assignment abroad with the Government of Canada, from 2002-2006, was to Canada’s Permanent Mission of Canada to the United Nations in New York, responsible for economic and environmental issues.  He was also Head of the Political, Trade and Immigration Section at Canada’s Embassy to Ethiopia and Observer Mission to the Africa Union from 2006-2008.  His next assignment overseas was at the High Commission of Canada in London as Head of Advocacy from 2009-2012.
+
+From 2013-2015, Mr. Gupta was the Head of Office at the High Commission of Canada in Lusaka. In Ottawa, he worked at the Environmental Relations Division, the Privy Council Office’s Foreign and Defense Policy Secretariat and the Maghreb and North Africa Relations Division.
+    "</string>
+    <string name="guptaProf">"
+The Canadian Ambassador to Zimbabwe
+"</string>
+    <string name="ChiparaBio">
+        Gabriel is the founder of Mantis Africa (Pvt) Ltd, a business consulting and seminars company (a member of the Mantis Group of Companies). He is an Accountant/Auditor by training with a Bachelor of Accountancy (Honours) degree (University of Zimbabwe); Post-Grad Diploma in Applied Accountancy (Institute of Chartered Accountants &amp; the University of Zimbabwe) and he successfully completed his Articles of Clerkship with Ernst &amp; Young Chartered Accountants, Zimbabwe. Gabriel also holds an Advanced Management Program from the University of Natal (SA).\n\n
+
+        Apart from the academic qualifications, Gabriel has also attended short courses on training of trainers, Old Mutual’s train the trainer for the ‘On The Money; Big Five Secrets of Money Management’, health financing in Zimbabwe, Board of Healthcare Fund (BHF) conference (SA), Andy Harrington’s (effective and profitable) public speaking (SA), business problem solving techniques (root cause analysis), financial strategy formulation, managing a GSM telecommunications business, roles and responsibilities of company directors, job analysis/job descriptions, conducting employee job grading and performance management, among others
+
+        Whilst serving his Articles of Clerkship with Ernst &amp; Young Chartered Accountants (Zimbabwe) he was involved in business systems and year-end financial statements audits of underground gold and copper mines, transnational petrochemical companies, local authorities, real estate agents, food, stock-feed, milk and meat processing companies, stock broking, engineering &amp; metal fabrication companies among other sectors.\n\n
+
+        In addition to auditing the above-mentioned industries, Gabriel has also worked in and/or consulted for companies in the following sectors: health services provision, GSM telecommunications; health insurance; short-term insurance; crocodile farming; crop farming; pharmaceutical wholesalers; health and safety products distribution; vehicle sales, body repairs and service; tantalite, gold and platinum mining; churches; NGO’s; audit, tax &amp; business advisory services; pharmaceutical retail; supermarkets; restaurants; cocktail lounges/bars; private medical practices; diagnostic laboratory services; network marketing agents; road transport; a national airline, fuel distribution; plastic packaging manufacturing; furniture retailing; general trading; hair &amp; beauty parlors; business directory and online marketing services, etc.\n\n
+
+        He has become an accomplished business consultant, financial literacy activist, business trainer/facilitator and career guidance/life coach. He has completed the proverbial 10,000 business consulting and business training hours in such areas of business leadership and strategy; new venture and wealth creation; technical/financial evaluation of mining, farming, private medical, retail, hospitality and other SME ventures; financial literacy in schools, at home and in the office; synchronizing business strategy, operations, budgets &amp; reporting; P-based budgeting; financial reporting and management; enterprise risk management and business systems; enterprise profit and cost optimization; cost optimization for exporting manufacturers (this topic was presented at an EU-sponsored Trade Capacity &amp; Building Project [TCBP] where the main theme was the interim Economic Partnership Agreements [EPA’s] between Zimbabwe and the EU countries; financial management program (UN Mission in Sudan); business valuations and due diligence; mortgage and business loan broking as well as corporate and individual tax compliance and planning.  Gabriel’s training, speaking and consulting assignments has taken him to such countries as Zambia, Sudan, South Africa and Mozambique.\n\n
+
+        He has also conducted workshops on such non-financial topics as: profiling, getting &amp; keeping customers; the art &amp; science of networking your way to business success; business negotiating skills; self/time management; the value-added employee, life skills and workforce readiness; among others.\n\n
+
+        Since July 2012, Gabriel has been a StarFM radio host/presenter on the topic personal and home finances (on ‘The Breeze’ program) and MSE/SME business issues (on the ‘Drive Time Radio’.  One of the most popular radio sessions (on StarFM) was on the fifty-six zero and low-capital ideas that were discussed in detail over a six-week period.\n\n
+        He has also been invited to speak on other radio stations, namely ZiFM and SFM (Zimbabwe), MixFM (East Coast, South Africa) and also on Zambia’s national TV station, ZNBC.\n\n
+
+        Gabriel is also a very active Rotarian and is a Rotary International Presidential Citation Award winning Past President of Rotary Club of Msasa, District 9210 (which incorporates Malawi, Northern Mozambique, Zambia and Zimbabwe).  He has been an Assistant District Trainer (2012-13), a Country Coordinator for the D9210 Membership Development Committee and he is the current D9120 Chairperson for the PRLS (Practical Relevant Leadership Skills) Committee as well as being a member of the D9210 Membership Committee (2015-17) and Rotary Youth Leadership Awards (RYLA) Committee (2016-17).
+
+    </string>
+    <string name="ChiparaProf">
+        Accountant/Auditor
+    </string>
+    <string name="MungoshiBio">
+        Jonah Mungoshi is a 48 year old success coach and a world-class communicator whose achievements in this regard include the following:\n\n
+
+        * Best Public Speaker in Africa – 2002 &amp; 2003\n
+        * Best Public Speaker outside North America – 2002\n
+        * 3rd Best Public Speaker in the World – Toastmasters International 2002\n\n
+
+        Jonah is the managing director of FloodTide Investments (Pvt.) Ltd., a Zimbabwean based leadership development company. He sits on the boards of the Information Technology and Outreach Centre for Africa (ITOCA) based in South Africa and Steward Bank in Zimbabwe.
+
+        In September 2007 Jonah was selected as one of ten Zimbabweans who received awards for the Ten Outstanding Young Zimbabweans organized by the Junior Chamber International (JCI) organization.
+
+        In April 2003 he delivered a continuous 36 hour public speech in an attempt to break the Guinness World Record for the Longest Public Speech. He has toured and delivered presentations in many countries including South Africa, Zambia, Ethiopia, Mauritius, USA and UK.
+
+        Jonah has also facilitated workshops, provided training and keynote speeches to many organizations including the following: Ernst and Young (Zimbabwe), USAID, Old Mutual, British Council, FBC Bank, South African Airways, UNDP, USAID, US Embassy in Zimbabwe, WK Kellogg Foundation (SA), Toyota Offices (USA), Bill &amp; Melinda Gates Foundation (USA).
+    </string>
+    <string name="MungoshiProf">
+        Managing Director of FloodTide Investments (Pvt.) Ltd.
+    </string>
+    <string name="LongweBio">
+"Linda Longwe-Musesengwa is an effective computer-literate, highly motivated and results-orientated individual with over 18 years experience in the public relations, event management and consumer services marketing field.  She is an individual who thrives on challenges, is highly dependable, and adaptive to new situations.  In short, she is a well organised trainer, marketer and corporate reputation management practitioner who is innovative, decisive and communicates effectively."
+    </string>
+    <string name="LongweProf">
+        Marketer and Corporate Reputation Management Practitioner
+    </string>
+    <string name="Mavesera">
+        Miidzo Mavesera
+    </string>
+    <string name="MaveseraBio">
+        Dr. Miidzo Mavesera is a holder of a Doctor of Literature and Philosophy degree in African Languages (UNISA), a Master of Education in Educational Administration, Planning and Policy Studies (ZOU), a Bachelor of Arts (UNISA) and a Secondary School Teachers’ Certificate (UZ).\n\n
+
+        Dr. Mavesera is an academic who is a Research Fellow of the University of South Africa, an editorial Board Member of the Southern African Journal of African Languages (SAJAL) as well as a Board member of the African Journal of Children’s Literature.She is a member of the African Languages Association of Southern Africa (ALASA) and treasurer of Shona Language and Culture Association (SLCA).\n\n
+
+        Miidzo has 17 publications to her name of which seven are books.  Besides academic writing she is a novelist, a playwright and a poet who is passionate about writing creative work in her mother tongue, Shona. One of her works Makaitei is a current set book for “A” Level Shona.\n\n
+
+        Dr Mavesera has presented several papers on language planning, empowerment and mainstreaming of African Languages and culture at international conferences.\n\n
+
+        As a researcher, she played a pivotal role in the Midlands State University’s Sexual Maturation Research Project funded by Rocker Feller Foundation as the gender consultant. This involved advocacy and sensitization for a paradigm shift from certain cultural practices and embracing new ones for the empowerment of the girl child.\n\n
+
+        Dr Mavesera also served as Secretary, Forum for African Women Educationalists Zimbabwe Chapter (FAWEZI; 2007-2011) a pan-African organization established by Ministers of Education to address gender equality and equity. She is distinguished as a FAWE Trainer of Trainers (TOT) on Gender Responsive Pedagogy (GRP) and Trainer of Adolescent Sexual Reproductive Health Skills (Advance Africa and FAWEZI) both of which are empowerment programmes targeting cultural revision.\n\n
+
+        Her current research focuses on Dynamics of African Languages in pushing the frontiers for sustainable indigenous empowerment with a predilection on the role of culture in shaping development.\n\n
+
+        Because she loves farming, based on her doctoral thesis, she designed the MM Dandaro model which is a holistic training model for new farmers targeting value- chain management. The model recorded significant success that attracted 15 NGOs.
+    </string>
+    <string name="MaveseraProf">
+        Research Fellow of the University of South Africa
+    </string>
+    <string name="LeeAnnProf">
+        Lee-Ann joined the Rotary Club of Harare West on March 27th, 2006, introduced by PAG Kathy Gilbert. She started getting involved immediately by joining the Projects Committee and in July of that same year was appointed PR Chair for the Club, a position she held for 2 years.  This position meant that Lee-Ann got involved in every aspect of the Club as she firmly believes that PR starts with each and every Rotarian and it starts in the Club!	Her next appointment was Projects Chair and she was Club President in 2009/10.  She has also been the Club Trainer and Foundation Chair for her Club.\n\n
+
+        Lee-Ann is a recipient of certificates of recognition from every President every year from her Club and has been awarded two Paul Harris Fellow pins from her Club in acknowledgement of her commitment and dedication to all things Rotary as well as a Paul Harris pin from the District.\n\n
+
+        Lee-Ann served as Training Coordinator for Zimbabwe for 3 years, 2007-2010, was named President of the Year in 2009/10 and served as Assistant Governor 2010/12.  She was the District Trainer for 2012-2014 and 2015-16.  She was the District Newsletter Editor in 2008/09 and again in 2013/14.\n\n
+
+        She was awarded the Rotary Foundation Business Service Award in 2007/08 and is a Master PRLS 5 graduate.
+
+        She is a member of Rotarians on Social Network Fellowship (ROSNF), Rotarians on the Internet (ROTI) and is a member of a new action Group– Rotarian Action Group for Endangered Species RAGES.\n\n
+
+        Lee-Ann has attended every District Conference since 2006 and has been on two Conference organising committees in 2008/09 and 2013/14.  She also participated on the Organising Committee for President Ravi Ravindran’s visit to Zimbabwe in March 2016.\n\n
+
+        Lee-Ann is passionate about training, especially empowering youth, and has conducted many PRLS courses, both in Zimbabwe and Zambia, and has also facilitated training and team building with Rotary clubs and Rotaract Clubs.\n\n
+
+        She identified 2 successful GSE members and has been on the Zimbabwe interview panel for a VTT group.\n\n
+
+        Lee-Ann worked in various aspects of the travel and tourism industry from 1975 to 2001 including Marketing for Sheraton Hotel, safari consultancy, air hostess, and lodge management.  She joined the finance industry in January 2002 initially administering a remuneration scheme for corporate executives.  She then moved into the asset management side and was Client Liaison at CBZ Asset Management until December 2012.  Lee-Ann then decided to follow her passion and left to open her own Training Consultancy firm, The Learning Curve, where she specialises in, amongst other things, Strategic Planning, Business Ethics and Sustainable Leadership.  As part of her vocation she volunteers to do pro-bono work for charity.\n\n
+
+        She has travelled extensively in her life and has been fortunate enough to visit Australia, USA, UK, Europe, The Philippines and many of the Southern African Countries.\n\n
+
+        Lee-Ann has been with the love of her life, Andy House, for 14 years.  Lee-Ann introduced Andy to Rotary in 2006 and he is a dedicated and hardworking Rotarian, Past Assistant Governor, who she is blessed to have in her life.
+
+    </string>
+
+    <string name="a.Volo">
+        As the year 2016 ebbs closer to its end, business and helping our communities does not (and frankly, never will). With that in mind, it’s good to know that we have to keep our heads at all times as they constitute a major part of our personal development. That said, is it not refreshing to know that this year, the Rotaract Africa Summit to be held in September at the ostentatious Stephen Margolis Resort, will provide the right amount of ingredients necessary to enrich your business and community-based aspirations not only as a Rotaractor, but as a wholesome young professional?\n\n
+        The order of business these days is not necessarily about what you know and, shockingly, not even about WHO you know. Ultimately, it’s all about who knows YOU. I have personally noted the one simple but crucial characteristic of business that is often overlooked: people do business with people because they LIKE them, for various reasons of course. It can be noted that one is liked for their speedy delivery, their unique services or even the character of the individual they are dealing directly with. With the latter note in mind, the magic of NETWORKING comes into play.\n\n
+        Networking is the fabric to which many successful endeavours are fabricated from, ranging from business to simple connections for volunteer work. Everyone wants to work with people because it is not only more productive than riding solo but it is much more fulfilling in so many ways. Some captains of industry (such as the amazing list of speakers we have lined up) will attribute a lot of their success towards the art of networking. It’s amazing what such a modest activity, yet difficult to execute for some, can do to shape one’s life.\n\n
+        Seminars come and go. We meet people from all works walks of life; however, the best sessions are those where LIKE-MINDED individuals come together to learn and perfect themselves towards a common goal. The Rotary family is stacked with amazing individuals and Rotaractors probably constitute the highest level of awesome! An event with such an overflow of remarkable individuals, throw in a couple other golden-oldies to give us a few tips and keep us company, and you have the perfect environment to stretch you further in your development as a person because the people around you have either gone through similar challenges to your own or are simply waiting to partner with someone like you in order to nurture a fruitful mutual growth.\n\n
+        In short, the Rotaract Africa Summit is happening and will blow a lot of minds; all it needs is you to confirm the rumours! So make the necessary clicks to register and prepare for a unique Rotaract experience!\n\n
+        Yours in Rotaract Service\n\n
+        Allistar Volo\n\n
+
+
+    </string>
+    <string name="district">
+        "The Rotary Club of Harare, Zimbabwe chartered in 1930, was sponsored by the Rotary Club of Johannesburg, South Africa as one of the first Rotary Clubs in Africa outside of South Africa. At that time the country was called Rhodesia after Cecil Rhodes who had an ambition to build a railway line from Cape to Cairo and to develop the hinterland economically. With the coming of Independence from Britain in 1980, the country's name changed to Zimbabwe and a few years later, the capital city's name was changed from Salisbury to Harare. The city remains the capital and economic hub of Zimbabwe. In Harare there are now ten Rotary Clubs.
+
+Up to June 1997 the country formed part of Rotary International District 9250 but at present is one of the four countries of District 9210. Previously the Kingdom of Swaziland and the northern and eastern parts of the then province of Transvaal in South Africa were part of the District. Now the District encompasses Malawi, Zambia and the northern half of Mozambique in addition to the whole of Zimbabwe. This covers a large area of sub-equatorial Africa. So the District Governor annually has a daunting task to visit all the Clubs in this large District.
+
+At the time of redistricting there was disappointment at not being able to meet annually close Rotarian friends from Swaziland and South Africa at future assemblies and conferences. However it has created opportunities for further friendships with Rotarians in less developed neighbouring countries in Southern Africa and provided almost unlimited opportunities for service.
+
+Like the club which sponsored the formation of RC of Harare more than seven decades ago, the Johannesburg Rotary Club, the first on the African continent, the average age of membership continues to be the highest in R I District 9210. Because of this, the club has a goodly number of members now in retirement, so steps continue to be taken to induct younger members. The weekly luncheon attendance by the 70s plus age group, however, remains regular. Their wise counsel on the service committees particularly, based on their experience with major projects many initiated by them in earlier days, is much appreciated and where possible these 'old timers' continue to support the ongoing ones. Membership in general of course realizes that there is the continuous need for an inflow of new younger members to maintain the dynamism for which the club is so well known."
+
+    </string>
+    <string name="drr_message">
+        "One cannot give what they do not have. As Rotaractors we are so often stuck on giving time and physique because we have nothing else to give. You are either a student, unemployed graduate, contractually employed but not gainfully, gainfully but living on a shoe string budget or you have a family starting and really can’t meet any extra financial obligation.
+
+You have a business that you need to grow, you need raw materials, production partners and ultimately customers. You need seed capital or links with the relevant people. You can’t afford to pay your subscriptions because you live hand to mouth.
+
+Rotary greetings to you Rotaractor, I hope this communication finds you well. It is my pleasure to bring to your attention the Rotaract Africa Summit to be held from 29 September to 2 October 2016.
+
+The Summit is aimed at equipping the participant with skills relevant to make them a global leader. It is aimed at providing a platform for young professionals and business people to network. It is through these networks that business partnerships are formulated. It is through these networks that we learn to support the family of Rotary.
+
+Rotaract should be the place that grows your giving as well as your profession or your business. With an international network of people of various vocations there is no reason your business should be failing. The skills you need are right within the club.
+
+With an exciting line-up of activities and topics that will equip you with the motivation and skills you need to start or boost your ideas, a platform to pitch ideas to potential investors and market your product to customers.
+
+The planning committee has secured world renowned speakers that will blow your mind, we have done our part, it is up to you to register.
+
+Come and experience the true power of partnership
+
+Yours in Rotaract Service
+
+DRR Martin"
+    </string>
+
+    <string name="john_germ">
+        "Dear Rotaractors of District 9210
+
+It is my pleasure to send greetings to you on the occasion of your Rotaract Africa
+
+Summit, where you and your fellow Rotaractors will prepare to lead your clubs in the 2016-17 Rotary year.
+
+The Greek philosopher Demosthenes once wrote that “great enterprises begin with small opportunities.” But you know what? I don’t think it’s true. Great enterprises don’t begin with small opportunities. They begin with great opportunities. It’s just that great opportunities sometimes have a way of looking small.
+
+And through Rotaract you have been given a great opportunity. What you do with that opportunity — that’s up to you. Sometimes those opportunities might look small. You might think that what you do doesn’t matter. But they’re not small. Everything you do matters, especially to the people you help and the people you love, in this generation and the next. And the decisions you make won’t begin or end with you. The effects of our work, our decisions, will ripple out all over the world to the people whose lives we will change.
+
+We’re all in this together. We’re all on the same TEAM. Because in Rotary, we lead just like we serve:
+
+Together Everyone Accomplishes More. And I welcome you as an important part of our All Star Team. But we need more willing hands, caring hearts, and inquisitive minds to join our team. People like you, who believe in honesty, diversity, tolerance, friendship, and peace. Leaders who understand that diversity is strength, high ethical standards don’t ever go out of style, and who believe, as Paul Harris believed, that serving humanity is the most worthwhile thing any one of us can do with our lives. So, invite someone else to discover their own great opportunity to change the world for the better, forever through Rotary’s service to humanity.
+
+Thank you for what you have done; thank you for what you are doing; and thank you for what you are going to do to improve your community and change lives. Thank you for seizing your great opportunity to join Rotary Serving Humanity.
+
+
+
+Sincerely,
+
+
+
+John F. Germ
+
+President, Rotary International 2016-17"
+    </string>
+    <string name="dg_message">
+"
+Welcome to RAS 2016!
+
+As Rotaractors you are special members of this wonderful family we call Rotary and you are uniquely placed to impact the world in a meaningful way not only because of your energy, enthusiasm and love of life but also because the world is changing and the time is now!.
+
+Naveen Jain said “True philanthropy requires a disruptive mind-set, innovative thinking and a philosophy driven by entrepreneurial insights and creative opportunities.”  May this summit increase your innovative thinking, change your mind-set to one of disruption, and may this all lead to future creative opportunities.
+
+May you all build bonds based on strong moral principles and service to humanity as you fellowship, learn and share and may you inspire others when you return to your homes after the summit.
+
+“Even greater than the ability to inspire others with hope is the power to motivate them to give as much to the lives of others as they would give to their own; and to empower them to confront the worst in themselves in order to discover and claim the best in themselves.”   Aberjhani
+
+I wish you a successful, thought provoking, summit and I hope that each and every one of you are abundantly blessed in your pursuit of serving humanity.
+
+Lee-Ann Shearing
+
+District Governor 2016/17
+
+District 9210"
+    </string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_image_view">Picture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

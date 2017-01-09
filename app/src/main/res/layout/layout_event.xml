@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="DAY 1"
+            android:id="@+id/tvEvents_Date"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:background="@color/blue"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello this is leo moyo the programmer and i m just typing nonsense just to fill up this space with text. This app is to deal with the "
+                android:id="@+id/tvEvents_Description"
+                android:textAlignment="gravity"
+                android:lines="2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEE MORE"
+                android:id="@+id/tvEvents_See_More"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvEvents_Heading"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/tvEvents_Description"
+                android:layout_alignStart="@+id/tvEvents_Description"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

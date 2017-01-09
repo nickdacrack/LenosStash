@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.rotaract9210.d9210events"
+    android:versionCode="4"
+    android:versionName="3" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/africa_pic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".EventActivity"
+            android:label="Event" >
+        </activity>
+        <activity
+            android:name=".SpeakerActivity"
+            android:label="Speaker" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".RegisterEventActivity"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name=".MenuActivity">
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="Contact Us" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="About Us" >
+        </activity>
+        <activity android:name=".TwitterActivity" >
+        </activity>
+        <activity
+            android:name=".AboutDRRActivity"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".AboutDistrictActivity"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".AboutCommitteesActivity"
+            android:label="Committes" >
+        </activity>
+        <activity
+            android:name=".AboutDGActivity"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="Gallery" >
+        </activity>
+        <activity
+            android:name=".ProgramActivity"
+            android:label="Event Program" >
+        </activity>
+        <activity
+            android:name=".ImageViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_image_view"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity android:name=".ComingSoonActivity" >
+        </activity>
+        <activity android:name=".EventDescriptionActivity"
+            android:label="Day's Program">
+        </activity>
+    </application>
+
+</manifest>

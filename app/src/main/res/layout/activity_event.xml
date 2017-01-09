@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.rotaract9210.d9210events.EventActivity"
+    android:background="@color/white">
+
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/relativeLayout"
+            android:layout_weight="1">
+
+            <ViewFlipper
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/viewFlipper" >
+
+            </ViewFlipper>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="STEPHEN MAGOLIS RESORT"
+                android:id="@+id/tvEvent_Venue"
+                android:textColor="@color/white"
+                android:layout_above="@+id/tvEvent_Date"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="RAS 2016"
+                android:id="@+id/tvEvent_Name"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="29 September - 2 October"
+                android:id="@+id/tvEvent_Date"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="23dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left|top"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="REGISTER"
+                        android:id="@+id/btnEvent_Register"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="PROGRAM"
+                        android:id="@+id/btnEvent_Program"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="SPEAKERS"
+                        android:id="@+id/btnEvent_Speakers"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:text="GALLERY"
+                        android:id="@+id/btnEvent_Gallery"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left|bottom"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/btnEvent_Twitter"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@mipmap/twitter_xxl"
+                        android:padding="30dp" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="SPONSORS"
+                        android:id="@+id/btnEvent_Sponsors"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="ABOUT"
+                        android:id="@+id/btnEvent_About"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_responsive_bground"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

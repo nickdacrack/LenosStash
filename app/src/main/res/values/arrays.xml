@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <integer-array name="image_ids" >
+        <item>@mipmap/about_ras</item>
+        <item>@mipmap/africa_pic</item>
+        <item>@mipmap/barbra_zembi</item>
+        <item>@mipmap/drr_pic</item>
+    </integer-array>
+
+    <integer-array name="magolis_slider">
+        <item>@mipmap/magolis_lodge_1</item>
+        <item>@mipmap/magolis_lodge_2</item>
+        <item>@mipmap/magolis_lodge_3</item>
+    </integer-array>
+    <string-array name="program">
+        <item>"
+First Day of RAS
+
+            Sergeant At Arms : 	Mbulelo Mwanza (ADRR)
+
+                 Time..................Session...........Facilitator
+            08:00 - 19:00...Arrivals
+            19:00 - 21:00...Welcome Cocktail...............Ruvimbo
+            22:00...........Rest...........................ALL
+..........................................................................
+.......................................................................... "</item>
+        <item tools:ignore="TypographyEllipsis">"
+Second Day of RAS
+
+                 Time..................Session..........Facilitator
+            05:45 – 07:15...Wake up – Shake up.............Resort
+            07:15 – 08:00...Time for a Splash!!!...........ALL
+            08:00 – 08:50...Grab some Grub!!...............Resort
+            09:00 – 09:50...The Dollar Factor..............TBA
+            09:50 – 10:40...Grow your network..............TBA
+            10:40 – 11:10...Interaction and Tea Break......ALL
+            11:10 – 12:00...Business Sense/Cents...........TBA
+            12:00 – 12:50...Grooming and Etiquette.........TBA
+            13:00 – 14:20...Lunch (Official Opening).......TBA
+            14:20 – 15:15...Packaging......................TBA
+            15:15 – 16:05...Culture and Language...........TBA
+            16:05 – 16:30...Interaction and Tea Break......ALL
+            16:30 – 16:50...Communication..................TBA
+            16:50 – 17:40...Inspirational note.............TBA
+            17:40 – 19:00...Free Time......................ALL
+            19:00 – 20:30...Dinner (TBA)...................HOC
+            20:30 – 22:00...Entertainment
+            22:00...........Rest...........................ALL
+
+..........................................................................
+.......................................................................... "</item>
+        <item tools:ignore="TypographyEllipsis">"
+Third Day of RAS
+
+         Time..................Session..........Facilitator
+    05:45 – 07:15...Wake up – Shake up.............Resort
+    07:15 – 08:00...Time for a Splash!!!...........ALL
+    08:00 – 08:50...Grab some Grub!!...............Resort
+    09:00 – 09:30...Travel to project site.........ALL
+    09:40 – 11:40...Project........................ALL
+    11:40 – 12:00...Travel back to lodge...........ALL
+    12:00 – 13:20...Refresher time.................ALL
+    13:20 – 14:20...World’s Greatest Meal
+                    to End Polio...................TBA
+    15:20 – 16:00...International Understanding
+                    and Key note Appreciation......TBA
+    16:00 – 16:10...Photoshoot.....................Kapture
+    16:10 – 18:30...Networking.....................ALL
+    18:30 – 19:40...Closing Ceremony...............HOC
+    19:40 – 21:00...Cultural food and Braai........HOC
+    21:00 - Late....Music / Free Time / Rest/
+                    Networking.....................Optional
+
+.............................World’s Greatest Meal Programme..........................
+...............................Master of Ceremony : TBA..............................
+
+         Time..................Session................Facilitator
+    13:00 – 13:15...Guests seating (Entertainment)
+    13:15 – 13:25...National Anthems – Prayer
+                    – Four Way Test......................MC
+    13:25 – 13:30...Welcome Remarks and introduction
+                    of HOC...............................Convener
+    13:30 – 13:35...World’s Greatest Meal to
+                    End Polio............................Ruvimbo Mungoni
+    13:35 – 14:05...Lunch is Served
+    14:05 – 14:25...Giving Back..........................TBA
+    14:25 – 14:30...DG’s Address.........................DGE / DRC
+    14:30 – 14:40...Rotaract in D9210 and Intro of
+                    guest................................DRR
+    14:40 – 15:30...Key Note Address.....................TBA
+    15:30 – 15:50...International Understanding..........TBA
+    15:50 - 15:55...Presentation of End Polio Surprise...Ruvimbo Mungoni &amp; DRR
+    15:55 – 16:00...Vote of Thanks.......................District Secretary
+    16:00 - 16:10...Photo shoot..........................Kapture
+
+
+..........................Closing Ceremony................................
+.......................Master of Ceremony : TBA...........................
+
+        Time..................Session................Facilitator
+    18:25 – 18:30...Get Seated
+    18:30 – 18:35...Prayer – Four Way Test...............MC
+    18:35 – 19:15...Feedback on Rotaract
+                    Africa Summit.......................DPRO Nyasha
+    19:15 – 19:20...Presentation of Committee
+                    (District and RAS)..................DPRO Nyasha
+    19:20 – 19:30...Introduction of MDIO................TBA
+    19:30 – 19:35...Discon 2017 &amp; RICON 2017........ADRR Ernest Mackina
+    19:35 – 19:40...Vote of Thanks......................Gilbert Chiminya
+
+..........................................................................
+..........................................................................
+"</item>
+        <item>"
+Forth Day of RAS
+
+         Time..................Session....................Facilitator
+    08:00 – 09:30...Wake up – Shake up.......................Resort
+    09:30 – 10:30...Time for a Splash!!!.....................ALL
+    10:30 – 11:00...Brunch on the Go.........................Resort
+    11:00 – 14:00...Departure................................ALL
+
+
+                        Opening Ceremony Programme
+                        Master of Ceremony :  TBA
+
+        Time..................Session......................Facilitator
+    12:50 – 12:55...Get Seated
+    12:55 – 13:00...National Anthems – Prayer
+                    – Four Way Test...........................MC
+    13:00...........Lunch is served
+    13:30 – 13:35...Introduction of Guests
+                    and Committee (District &amp; HOC)............MC
+    13:35 – 13:40...RAS.......................................Convener
+    13:40 – 13:45...Welcome remarks and Intro of
+                    Guest speaker.............................DGE / DRC
+    13:45 – 14:15...Opening Speech............................TBA
+    14:15 – 14:20...Vote of Thanks............................Liaison
+..........................................................................
+.........................................................................."
+        </item>
+    </string-array>
+</resources>

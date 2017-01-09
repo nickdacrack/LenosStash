@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivTwitter_Post_Picture"
+        android:src="@mipmap/rotary_logo"
+        android:background="@color/blue"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/tvTwitter_Post_Title"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/ivTwitter_Post_Picture"
+        android:layout_toRightOf="@+id/ivTwitter_Post_Picture"
+        android:layout_toEndOf="@+id/ivTwitter_Post_Picture"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/tvTwitter_Post_Date"
+        android:layout_below="@+id/tvTwitter_Post_Body"
+        android:layout_toRightOf="@+id/ivTwitter_Post_Picture"
+        android:layout_toEndOf="@+id/ivTwitter_Post_Picture"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:id="@+id/tvTwitter_Post_Body"
+        android:layout_weight="1"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tvTwitter_Post_Title"
+        android:layout_toRightOf="@+id/ivTwitter_Post_Picture"
+        android:layout_toEndOf="@+id/ivTwitter_Post_Picture"
+        android:layout_marginLeft="5dp" />
+</RelativeLayout>

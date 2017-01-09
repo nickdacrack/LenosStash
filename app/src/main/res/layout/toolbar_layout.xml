@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:background="@color/colorPrimary"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageButton"
+        android:src="@mipmap/back_arrow_black_2"
+        android:background="#00000000" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="RAS 2016"
+            android:id="@+id/tvToolbar_Title"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ITINERARY"
+            android:id="@+id/tvToolbar_SubTitle"
+            android:textColor="#3255a3"
+            android:textSize="15dp"
+            android:letterSpacing="5"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/ivToolbar_Menu"
+        android:src="@mipmap/hamburger_icon" />
+
+</LinearLayout>

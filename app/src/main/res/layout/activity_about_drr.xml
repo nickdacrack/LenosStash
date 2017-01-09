@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="org.rotaract9210.d9210events.AboutDRRActivity"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageView10"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/drr_pic" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Full Name"
+                android:id="@+id/textView17"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sheunesu Martin Mavesera"
+                android:id="@+id/textView10"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rotary Profile"
+                android:id="@+id/textView18"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" * Founding and Charter President : Rotaract Club of Midlands State University (2011-2013)\n\n * Visiting Member : Rotaract Club of Harare West (2013-2014)\n\n * Treasurer : Rotaract Club of Midlands State University (2014-2015)\n\n * Assistant District Rotaract Representative for Midlands and Masvingo clubs. (2014-2015)\n\n * Member of the Host Organising Committee for the Rotary International President’s visit to Zimbabwe (2016)\n\n * District Rotaract Representative (D9210) (2016-2017)"
+                android:id="@+id/textView19"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Work profile"
+                android:id="@+id/textView20"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Audit Clerk (Vali Chartered Accountants Zimbabwe member of Russel Bedford International)"
+                android:id="@+id/textView21"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Quote"
+                android:id="@+id/textView22"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1.	Volunteers are not paid, not because they are worthless but because they are priceless. 2.	The world can never get enough volunteers, don’t think too much, get up and do something. "
+                android:id="@+id/textView23"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Interests"
+                android:id="@+id/textView27"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Photography\n * Culinary arts\n * Travel\n"
+                android:id="@+id/textView28"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Countries visited through Rotary:"
+                android:id="@+id/textView29"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. India\n 2. U.A.E\n 3. Zambia\n 4. Mozambique\n 5. Malawi\n 6. Germany\n 7. Austria\n 8. Slovakia\n 9. Slovenia\n 10. Italy\n 11. Vatican City\n 12. Switzerland\n"
+                android:id="@+id/textView30"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
