@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="org.rotaract9210.d9210events.ProgramActivity">
+    tools:context="org.rotaract9210.d9210events.ProgramActivity"
+    tools:background="@color/common_action_bar_splitter">
 
     <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
         android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay"
@@ -32,15 +33,12 @@
         android:layout_margin="10dp"
         android:textColor="@color/white" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Program"
-        android:id="@+id/tvProgram_Program"
-        android:textStyle="normal"
-        android:typeface="monospace"
-        android:textSize="15dp" />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:listitem="@layout/layout_program_item"
+        android:layout_below="@+id/tvProgram_Day"
+        android:id="@+id/list" />
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -48,11 +46,6 @@
         android:layout_below="@+id/tvProgram_Day"
         android:id="@+id/scrollView8" >
 
-        <ListView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            tools:listitem="@layout/layout_program_item"
-            android:id="@+id/listView2" />
     </ScrollView>
 
 </RelativeLayout>

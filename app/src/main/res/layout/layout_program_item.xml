@@ -1,72 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="08:00-19:00"
-        android:id="@+id/tvProgramTime"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="5dp"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        card_view:cardCornerRadius="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardBackgroundColor="@color/white"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/blue"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"></LinearLayout>
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Arrivals"
-        android:id="@+id/tvProgramDescription"
-        android:textSize="30dp"
-        android:padding="5dp"
-        android:layout_marginLeft="10dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/blue"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"></LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Facilitator: "
-            android:id="@+id/textView26"
-            android:textSize="20dp"
-            android:paddingLeft="5dp"
-            android:textStyle="italic"
-            android:layout_marginLeft="10dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="08:00-19:00"
+                android:id="@+id/tvProgramTime"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Ruvimbo"
-            android:id="@+id/tvProgramFacilitator"
-            android:textSize="25dp" />
-    </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/blue"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_gravity="center_horizontal"
-        android:background="#555555"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"></LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Arrivals"
+                android:id="@+id/tvProgramDescription"
+                android:textSize="30dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facilitator: "
+                    android:id="@+id/textView26"
+                    android:textSize="20dp"
+                    android:paddingLeft="5dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ruvimbo"
+                    android:id="@+id/tvProgramFacilitator"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
 
 </LinearLayout>

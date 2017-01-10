@@ -137,4 +137,35 @@ public class DBHelper extends SQLiteOpenHelper {
         }
         return  arrayList;
     }
+
+    public ArrayList<ProgramItem> getEventProgram(String eventID){
+
+        ArrayList<ProgramItem> arraylist = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT * FROM program WHERE event_id="+getEventID(eventID),null);
+        res.moveToFirst();
+
+        while(res.isAfterLast() == false){
+            arraylist.add(new ProgramItem(
+                    res.getString(res.getColumnIndex("day")),
+                    res.getString(res.getColumnIndex("date")),
+                    res.getString(res.getColumnIndex("time")),
+                    res.getString(res.getColumnIndex("session")),
+                    res.getString(res.getColumnIndex("facilitator")),
+                    res.getString(res.getColumnIndex("SaA"))
+            ));
+        }
+        return arraylist;
+    }
+
+    public int getEventID(String eventName){
+        int id;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT id FROM events WHERE event_name="+eventName,null);
+        res.moveToFirst();
+
+        id = res.getInt(0);
+
+        return id;
+    }
 }
