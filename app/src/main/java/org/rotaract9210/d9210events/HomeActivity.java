@@ -80,7 +80,7 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent event = new Intent(HomeActivity.this,EventActivity.class);
-                event.putExtra("event", "ras");
+                event.putExtra("event", "RAS 2016");
                 startActivity(event);
             }
         });
@@ -98,7 +98,7 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent event = new Intent(HomeActivity.this,ComingSoonActivity.class);
-                event.putExtra("event","discon");
+                event.putExtra("event","DISCON 2016-2017");
                 startActivity(event);
             }
         });

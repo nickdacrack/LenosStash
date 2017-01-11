@@ -119,8 +119,9 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 startActivity(new Intent(getApplicationContext(),ProgramActivity.class)
-                .putExtra("day",programList.get(position).getDay())
-                .putExtra("program",programList.get(position).getBody()));
+                        .putExtra("day",programList.get(position).getDay())
+                        .putExtra("program",programList.get(position).getBody())
+                        .putExtra("event",getIntent().getStringExtra("event")));
             }
         });
     }

@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import net.sf.andpdf.pdfviewer.PdfViewerActivity;
 
+import org.rotaract9210.d9210events.SharedClasses.DBHelper;
 import org.rotaract9210.d9210events.SharedClasses.ProgramItem;
 
 import java.util.ArrayList;
@@ -50,8 +51,11 @@ public class ProgramActivity extends AppCompatActivity{
         //tvProgram.setText(extras.getStringExtra("program"));
 
         /** TODO: The ArrayList Needs to be populated with items from the database */
+        populateProgramList(extras.getStringExtra("event"));
+
         programItems.add(new ProgramItem("1","10-08-1993","11:00","Pizza Time","Mom and Dad",""));
         programItems.add(new ProgramItem("2","10-08-1993","11:00","Pizza Time","Mom and Dad",""));
+
 
         listView = (ListView)findViewById(R.id.list);
         adapter = new ProgramListArrayAdapter(ProgramActivity.this,programItems);
@@ -62,6 +66,11 @@ public class ProgramActivity extends AppCompatActivity{
 
     }
 
+    private void populateProgramList(String eventName){
+        DBHelper helper = new DBHelper(ProgramActivity.this);
+        programItems = helper.getEventProgram(eventName);
+
+    }
     class ProgramListArrayAdapter extends ArrayAdapter<ProgramItem>{
 
         TextView tvTime,tvSession,tvFacillitator;

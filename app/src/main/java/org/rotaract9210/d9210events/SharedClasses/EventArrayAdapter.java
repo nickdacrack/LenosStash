@@ -16,7 +16,7 @@ import java.util.ArrayList;
  */
 public class EventArrayAdapter extends ArrayAdapter<EventMessage> {
     ArrayList<EventMessage> eventMessageList = new ArrayList<>();
-    private TextView tvHeading, tvSeeMore, tvDescription,tvDate;
+    private TextView tvHeading, tvDescription,tvDate;
 
     public EventArrayAdapter(Context context, ArrayList<EventMessage> eventMessageList) {
         super(context, R.layout.layout_event, eventMessageList);
@@ -53,7 +53,7 @@ public class EventArrayAdapter extends ArrayAdapter<EventMessage> {
         tvHeading = (TextView)v.findViewById(R.id.tvEvents_Heading);
         tvDescription = (TextView)v.findViewById(R.id.tvEvents_Description);
         tvDate = (TextView)v.findViewById(R.id.tvEvents_Date);
-        tvSeeMore = (TextView)v.findViewById(R.id.tvEvents_See_More);
+
 
         tvHeading.setText(""+ messageobj.getTitle());
         tvDescription.setText("" + messageobj.getBody());

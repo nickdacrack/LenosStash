@@ -120,7 +120,8 @@ public class EventActivity extends AppCompatActivity {
                 btnSpeakers.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        startActivity(new Intent(getApplicationContext(),MenuActivity.class).putExtra("menu","speakers"));
+                        startActivity(new Intent(getApplicationContext(),MenuActivity.class)
+                                .putExtra("menu","speakers"));
                     }
                 });
                 break;
@@ -166,7 +167,9 @@ public class EventActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //openProgramPDf();
-                startActivity(new Intent(getApplicationContext(),MenuActivity.class).putExtra("menu","program"));
+                startActivity(new Intent(getApplicationContext(),MenuActivity.class)
+                        .putExtra("menu","program")
+                        .putExtra("event",eventName));
             }
         });
         ibTwitter = (ImageButton)findViewById(R.id.btnEvent_Twitter);
