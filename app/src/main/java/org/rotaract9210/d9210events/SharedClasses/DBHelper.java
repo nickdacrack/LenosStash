@@ -125,6 +125,23 @@ public class DBHelper extends SQLiteAssetHelper {
         return  arrayList;
     }
 
+    public ArrayList<EventMessage> getDaysProgram(String eventName) {
+        ArrayList<EventMessage> arraylist = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT DISTINCT program.day,program.date,program.summary FROM program WHERE program.event_id = " + getEventID(eventName), null);
+        res.moveToFirst();
+
+        while (res.isAfterLast() == false) {
+            arraylist.add(new EventMessage(
+                    res.getString(res.getColumnIndex("summary")),
+                    res.getString(res.getColumnIndex("date")),
+                    res.getString(res.getColumnIndex("day"))
+            ));
+            res.moveToNext();
+        }
+        return arraylist;
+    }
+
     public ArrayList<ProgramItem> getEventProgram(String eventName){
 
         ArrayList<ProgramItem> arraylist = new ArrayList<>();

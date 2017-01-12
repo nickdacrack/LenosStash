@@ -17,33 +17,58 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <TextView
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_below="@+id/view"
-        android:text="Day 1"
-        android:id="@+id/tvProgram_Day"
-        android:layout_gravity="center_horizontal"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:padding="5dp"
-        android:background="@color/blue"
         android:layout_margin="10dp"
-        android:textColor="@color/white" />
+        android:background="@color/blue"
+        android:id="@+id/llayout"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Day "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1"
+            android:id="@+id/tvProgram_Day"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:typeface="sans"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" />
+    </LinearLayout>
 
     <ListView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         tools:listitem="@layout/layout_program_item"
-        android:layout_below="@+id/tvProgram_Day"
+        android:layout_below="@+id/llayout"
         android:id="@+id/list" />
 
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@+id/tvProgram_Day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llayout"
         android:id="@+id/scrollView8" >
 
     </ScrollView>

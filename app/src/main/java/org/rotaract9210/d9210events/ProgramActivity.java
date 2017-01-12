@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -46,23 +47,16 @@ public class ProgramActivity extends AppCompatActivity{
         tvDay=(TextView)findViewById(R.id.tvProgram_Day);
         tvProgram =(TextView)findViewById(R.id.tvProgram_Program);
 
-
         tvDay.setText(extras.getStringExtra("day"));
-        //tvProgram.setText(extras.getStringExtra("program"));
 
-        /** TODO: The ArrayList Needs to be populated with items from the database */
+        /** Populates the programlist with the days program */
         populateProgramList(extras.getStringExtra("event"));
-
-        programItems.add(new ProgramItem("1","10-08-1993","11:00","Pizza Time","Mom and Dad",""));
-        programItems.add(new ProgramItem("2","10-08-1993","11:00","Pizza Time","Mom and Dad",""));
-
 
         listView = (ListView)findViewById(R.id.list);
         adapter = new ProgramListArrayAdapter(ProgramActivity.this,programItems);
-        listView.setDividerHeight(0);
+        listView.setFocusable(false);
         listView.setAdapter(adapter);
 
-        //listView.setContextClickable(false);
 
     }
 

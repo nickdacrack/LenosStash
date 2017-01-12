@@ -277,7 +277,7 @@ public class EventActivity extends AppCompatActivity {
 
     private void nSetUpPage(){
 
-        ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        /*ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
 
         //change back to != null
@@ -325,6 +325,21 @@ public class EventActivity extends AppCompatActivity {
                     imageView.setImageBitmap(BitmapFactory.decodeFile(new File(SharedValues.appFile+eventName+i).getPath()));
                     mViewFlipper.addView(imageView);
                 }
+            }
+        }*/
+
+        if (!(new File(SharedValues.appFile + eventName + "slider").exists())) {
+            for (int i = 0; i < resources.length; i++) {
+                ImageView imageView = new ImageView(this);
+                imageView.setImageResource(resources[i]);
+                mViewFlipper.addView(imageView);
+            }
+        } else {
+            for (int i = 0; i < resources.length; i++) {
+                ImageView imageView = new ImageView(this);
+                imageView.setImageResource(resources[i]);
+                imageView.setImageBitmap(BitmapFactory.decodeFile(new File(SharedValues.appFile + eventName + i).getPath()));
+                mViewFlipper.addView(imageView);
             }
         }
     }
