@@ -9,14 +9,19 @@ import android.widget.TextView;
 
 import org.rotaract9210.d9210events.R;
 
+import java.text.DateFormatSymbols;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by Leo on 8/16/2016.
  */
 public class EventArrayAdapter extends ArrayAdapter<EventMessage> {
     ArrayList<EventMessage> eventMessageList = new ArrayList<>();
-    private TextView tvHeading, tvSeeMore, tvDescription,tvDate;
+    private TextView tvSummary, tvDay, tvDate, tvMonth;
 
     public EventArrayAdapter(Context context, ArrayList<EventMessage> eventMessageList) {
         super(context, R.layout.layout_event, eventMessageList);
@@ -50,14 +55,24 @@ public class EventArrayAdapter extends ArrayAdapter<EventMessage> {
 
         EventMessage messageobj = getItem(position);
 
-        tvHeading = (TextView)v.findViewById(R.id.tvEvents_Heading);
-        tvDescription = (TextView)v.findViewById(R.id.tvEvents_Description);
+        tvSummary = (TextView) v.findViewById(R.id.tvEvents_Heading);
         tvDate = (TextView)v.findViewById(R.id.tvEvents_Date);
-        tvSeeMore = (TextView)v.findViewById(R.id.tvEvents_See_More);
+        tvDay = (TextView) v.findViewById(R.id.tvEvents_Day);
+        tvMonth = (TextView) v.findViewById(R.id.tvEvents_Month);
 
-        tvHeading.setText(""+ messageobj.getTitle());
-        tvDescription.setText("" + messageobj.getBody());
-        tvDate.setText("" + messageobj.getDay());
+        tvSummary.setText("" + messageobj.getTitle());
+        //tvDate.setText("" + messageobj.getDay());
+        String[] daysOfTheWeek = DateFormatSymbols.getInstance().getShortWeekdays();
+
+        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
+        try {
+            Date d = format.parse(messageobj.getBody());
+            tvDay.setText("" + DateFormatSymbols.getInstance().getShortWeekdays()[d.getDay()]);
+            tvDate.setText("" + d.getDate());
+            tvMonth.setText("" + DateFormatSymbols.getInstance().getShortMonths()[d.getMonth()]);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
         return v;
     }

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.rotaract9210.d9210events.SharedClasses.DBHelper;
 import org.rotaract9210.d9210events.SharedClasses.EventArrayAdapter;
 import org.rotaract9210.d9210events.SharedClasses.EventMessage;
 import org.rotaract9210.d9210events.SharedClasses.Speakers;
@@ -28,6 +30,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Created by Leo on 9/2/2016.
@@ -104,23 +107,31 @@ public class MenuActivity extends AppCompatActivity {
 
     public void populateProgram(){
 
+        DBHelper helper = new DBHelper(MenuActivity.this);
         String[] program;
+
+        listView.setDivider(ContextCompat.getDrawable(this, R.drawable.divider_grey));
         program = getResources().getStringArray(R.array.program);
         final ArrayList<EventMessage> programList = new ArrayList<>();
-        int i=0;
+        Iterator iterator = helper.getDaysProgram(getIntent().getStringExtra("event")).iterator();
+        while (iterator.hasNext()) {
+            programList.add((EventMessage) iterator.next());
+        }
+        /*int i=0;
         for (String day : program){
             programList.add(new EventMessage("Program",day,"Day "+ ++i));
-        }
+        }*/
 
-
+        //programList = helper.getDaysProgram(getIntent().getStringExtra("event"))
         EventArrayAdapter programAdapter = new EventArrayAdapter(getApplicationContext(),programList);
         listView.setAdapter(programAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 startActivity(new Intent(getApplicationContext(),ProgramActivity.class)
-                .putExtra("day",programList.get(position).getDay())
-                .putExtra("program",programList.get(position).getBody()));
+                        .putExtra("day",programList.get(position).getDay())
+                        .putExtra("program",programList.get(position).getBody())
+                        .putExtra("event",getIntent().getStringExtra("event")));
             }
         });
     }

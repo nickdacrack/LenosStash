@@ -7,35 +7,28 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
+
 import java.util.ArrayList;
 
 /**
  * Created by Leo on 9/8/2016.
  */
-public class DBHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteAssetHelper {
 
-    public static final String DATABASE_NAME = "db143.db";
-    public static final String PHOTOS_TABLE_NAME = "photos";
-    public static final String PHOTOS_COLUMN_ID = "id";
-    public static final String PHOTOS_COLUMN_PHOTO_NAME = "name";
-    public static final String PHOTOS_COLUMN_EVENT_NAME = "event";
+    private static final String DATABASE_NAME = "ras_db.db";
+    private static final int DATABASE_VERSION = 1;
 
     public DBHelper(Context context) {
-        super(context, DATABASE_NAME, null,1);
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    @Override
-    public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE events (id integer primary key, event_name text, event_date text, event_program text, event_time, event_details text, event_about text, event_cost text, event_location text, event_picture text)");
-        db.execSQL("CREATE TABLE speakers (id integer primary key, name text, profession text, bio text, picture text, event text)");
-        //db.execSQL("CREATE TABLE events_speakers (id integer primary key, event_id text, speaker_id text)");
-    }
+
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS events");
         db.execSQL("DROP TABLE IF EXISTS speakers");
-        //db.execSQL("DROP TABLE IF EXISTS events_speakers");
         onCreate(db);
     }
 
@@ -75,12 +68,6 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res = db.rawQuery("SELECT * FROM events where event = "+event,null);
         return res;
-    }
-
-    public int numberOfRows(){
-        SQLiteDatabase db = this.getReadableDatabase();
-        int numRows = (int) DatabaseUtils.queryNumEntries(db,PHOTOS_TABLE_NAME);
-        return numRows;
     }
 
     public boolean updateSpeaker(String name,String profession,String bio,String picture,String event){
@@ -136,5 +123,54 @@ public class DBHelper extends SQLiteOpenHelper {
             res.moveToNext();
         }
         return  arrayList;
+    }
+
+    public ArrayList<EventMessage> getDaysProgram(String eventName) {
+        ArrayList<EventMessage> arraylist = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT DISTINCT program.day,program.date,program.summary FROM program WHERE program.event_id = " + getEventID(eventName), null);
+        res.moveToFirst();
+
+        while (res.isAfterLast() == false) {
+            arraylist.add(new EventMessage(
+                    res.getString(res.getColumnIndex("summary")),
+                    res.getString(res.getColumnIndex("date")),
+                    res.getString(res.getColumnIndex("day"))
+            ));
+            res.moveToNext();
+        }
+        return arraylist;
+    }
+
+    public ArrayList<ProgramItem> getEventProgram(String eventName){
+
+        ArrayList<ProgramItem> arraylist = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT * FROM program WHERE event_id="+getEventID(eventName),null);
+        res.moveToFirst();
+
+        while(res.isAfterLast() == false){
+            arraylist.add(new ProgramItem(
+                    res.getString(res.getColumnIndex("day")),
+                    res.getString(res.getColumnIndex("date")),
+                    res.getString(res.getColumnIndex("time")),
+                    res.getString(res.getColumnIndex("session")),
+                    res.getString(res.getColumnIndex("facilitator")),
+                    res.getString(res.getColumnIndex("SaA"))
+            ));
+            res.moveToNext();
+        }
+        return arraylist;
+    }
+
+    public int getEventID(String eventName){
+        int id;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("SELECT id FROM events WHERE event_name='"+eventName+"'",null);
+        res.moveToFirst();
+
+        id = res.getInt(0);
+
+        return id;
     }
 }

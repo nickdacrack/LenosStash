@@ -13,17 +13,7 @@
         <item>@mipmap/magolis_lodge_3</item>
     </integer-array>
     <string-array name="program">
-        <item>"
-First Day of RAS
-
-            Sergeant At Arms : 	Mbulelo Mwanza (ADRR)
-
-                 Time..................Session...........Facilitator
-            08:00 - 19:00...Arrivals
-            19:00 - 21:00...Welcome Cocktail...............Ruvimbo
-            22:00...........Rest...........................ALL
-..........................................................................
-.......................................................................... "</item>
+        <item>"First Day of RAS"</item>
         <item tools:ignore="TypographyEllipsis">"
 Second Day of RAS
 
